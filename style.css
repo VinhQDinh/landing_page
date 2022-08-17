@@ -60,3 +60,23 @@ body {
 
 }
 
+.header p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.boxes .container {
+    display: flex;
+    height: 400px;
+
+}
+
+h2 {
+    justify-content: center;
+}
+
+.boxes img {
+    width: 200px;
+    height: 200px;
+
+}
