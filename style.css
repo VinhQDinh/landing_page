@@ -67,7 +67,7 @@ body {
 
 .hero h2 {
     text-align: center;
-    padding: 40px 0;
+    padding-top: 40px;
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
@@ -76,6 +76,8 @@ body {
 .figure-container {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 0;
 }
 
 .hero img {
@@ -89,3 +91,23 @@ body {
     width: 200px;
 }
 
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+   color: #1f2937;
+   font-size: 36px;
+   font-style: italic;
+   padding: 100px 300px 0 300px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 30px;
+    padding: 0 350px 100px 0;
+    color: #1f2937;
+    font-weight: bold;
+}
